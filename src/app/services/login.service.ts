@@ -10,7 +10,7 @@ export class LoginService {
 
   //login
   public login(user: any){
-    return this.http.post('http://localhost:8080/api/v1.0/moviebooking/login',user)
+    return this.http.post('https://springmoviebookingconatiner.azurewebsites.net/api/v1.0/moviebooking/login',user)
   }
 
   //Storing token to local
